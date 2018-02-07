@@ -106,9 +106,9 @@ Since arrays in Javascript can hold any value, they can also hold other arrays!
 ```javascript
 let arr = [];
 
-arr[1] = [1, 2, 3];
-arr[2] = [4, 5, 6];
-arr[3] = [7, 8, 9];
+arr[0] = [1, 2, 3];
+arr[1] = [4, 5, 6];
+arr[2] = [7, 8, 9];
 
 console.log(arr); // This will print [[1, 2, 3], [4, 5, 6], [7, 8, 9]] to the console
 ```
